@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GIA CAFE | منوی کافه</title>
+    <meta
+      name="description"
+      content="GIA CAFE - صفحه اصلی و منوی کامل کافه با دسته‌بندی، جستجو، انتخاب سفارش و اطلاعات تماس"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700;900&family=Cinzel:wght@700;800&family=Playfair+Display:wght@700&family=Bungee&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-bg"></div>
+    <div class="grain"></div>
+
+    <section class="home" id="home">
+      <div class="bean bean-1"></div>
+      <div class="bean bean-2"></div>
+      <div class="bean bean-3"></div>
+      <div class="bean bean-4"></div>
+      <div class="bean bean-5"></div>
+      <div class="bean bean-6"></div>
+      <div class="bean bean-7"></div>
+      <div class="bean bean-8"></div>
+      <div class="bean bean-9"></div>
+      <div class="bean bean-10"></div>
+      <div class="bean bean-11"></div>
+      <div class="bean bean-12"></div>
+      <div class="bean bean-13"></div>
+      <div class="bean bean-14"></div>
+      <div class="bean bean-15"></div>
+      <div class="bean bean-16"></div>
+      <div class="bean bean-17"></div>
+      <div class="bean bean-18"></div>
+      <div class="bean bean-19"></div>
+      <div class="bean bean-20"></div>
+      <div class="about-flyout" id="aboutFlyout">
+        <button id="aboutToggle" class="about-toggle" type="button" aria-expanded="false">درباره ما</button>
+        <div class="about-panel" id="aboutPanel">
+          <p>آدرس: تهران، سردار جنگل شمال، خیابان نوروز پور، کوچه نشاط ۱</p>
+          <p>تماس: <a href="tel:+982144345826">02144345826</a></p>
+          <p>
+            اینستاگرام:
+            <a class="insta-inline" href="https://instagram.com/gia.coffeehouse" target="_blank" rel="noreferrer">
+              <span>@gia.coffeehouse</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4c0 3.2-2.6 5.8-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8C2 4.6 4.6 2 7.8 2Zm-.2 2A3.6 3.6 0 0 0 4 7.6v8.8A3.6 3.6 0 0 0 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6A3.6 3.6 0 0 0 16.4 4H7.6Zm9.65 1.5a1.15 1.15 0 1 1 0 2.3 1.15 1.15 0 0 1 0-2.3ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z"
+                ></path>
+              </svg>
+            </a>
+          </p>
+          <p>
+            لوکیشن:
+            <a href="https://www.google.com/maps/search/?api=1&query=Q8CF%2BX9M%20Almahdi%2C%20Tehran%2C%20Tehran%20Province%2C%20Iran" target="_blank" rel="noreferrer">
+              باز کردن نقشه
+            </a>
+          </p>
+        </div>
+      </div>
+
+      <div class="home-stage">
+        <div class="logo-mark" aria-label="Gia logo">
+          <svg class="logo-svg" viewBox="0 0 100 100" aria-hidden="true">
+            <defs>
+              <mask id="logoMask">
+                <rect width="100" height="100" fill="#fff"></rect>
+                <circle cx="50" cy="50" r="22.4" fill="#000"></circle>
+                <rect x="-2" y="43.2" width="47" height="13.6" fill="#000"></rect>
+                <rect x="55.2" y="-2" width="47" height="47" fill="#000"></rect>
+                <rect x="54" y="44" width="30" height="12" fill="#fff"></rect>
+              </mask>
+            </defs>
+            <g opacity="0.94" mask="url(#logoMask)">
+              <circle cx="50" cy="50" r="34" fill="#f2f2f2"></circle>
+            </g>
+          </svg>
+        </div>
+        <div class="home-copy">
+          <p class="home-animated-text">WELCOM TO GIA CAFE</p>
+          <p class="home-desc">کافه جیا محیطی برای فارغ شدن شما از هیاهوی زندگی</p>
+          <p class="home-sub">یک فنجان آرامش، گفت‌وگو، و لحظه‌هایی که باید برای خودت نگه داری.</p>
+          <button id="goMenuBtn" class="menu-cta" type="button">منوی کافه جیا</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu-section" id="menuSection">
+      <div class="menu-shell">
+        <main class="layout">
+          <aside class="categories" id="categories" aria-label="دسته‌بندی منو"></aside>
+
+          <section class="menu-panel">
+            <div class="panel-top">
+              <h3 id="currentCategory">منو</h3>
+              <div class="panel-actions">
+                <div class="search-wrap">
+                  <input id="searchInput" type="text" placeholder="جستجو در آیتم‌ها..." />
+                </div>
+                <button id="clearChecks" class="clear-btn" type="button">پاک کردن تیک‌ها</button>
+              </div>
+            </div>
+            <div class="selection-meta" id="selectionMeta">0 مورد انتخاب شده</div>
+            <div id="menuList" class="menu-list"></div>
+          </section>
+        </main>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
